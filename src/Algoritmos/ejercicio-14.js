@@ -13,5 +13,5 @@ function checkAnagrama (word1, word2) {
 }
 
 console.log(checkAnagrama("amor", "roma"));
-;
+
 

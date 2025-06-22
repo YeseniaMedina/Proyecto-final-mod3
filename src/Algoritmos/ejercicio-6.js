@@ -14,4 +14,4 @@ function fibonacciNumber(n) {
 console.log(fibonacciNumber(6));
 
 
-// mirar si se puede hacer con un bucle.
+

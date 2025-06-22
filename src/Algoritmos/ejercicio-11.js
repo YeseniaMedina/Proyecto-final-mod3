@@ -7,9 +7,9 @@ let arrayNumber = array.sort((a,b) => b - a);
 
 console.log(arrayNumber[1]);
 
-// lo meto en una funcion?
 
-// probar con bucle
+
+
     
 
 
