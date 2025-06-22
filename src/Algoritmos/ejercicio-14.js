@@ -8,12 +8,8 @@ function checkAnagrama (word1, word2) {
     if(word1 && word2){
         return arrayword1.every((e) => arrayword2.some((x) => x === e));  
     }else {
-        return"Debe introducir dos textos";
-        
-    }
-
-
-      
+        return"Debe introducir dos textos";    
+    }     
 }
 
 console.log(checkAnagrama("amor", "roma"));
