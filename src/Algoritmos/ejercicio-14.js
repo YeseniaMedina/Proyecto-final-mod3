@@ -3,10 +3,15 @@
 
 
 function checkAnagrama (word1, word2) {
-    let arrayword1 = word1.split("");
-    let arrayword2 = word2.split("");
+    
     if(word1 && word2){
-        return arrayword1.every((e) => arrayword2.some((x) => x === e));  
+         let array1 = word1.toLowerCase().split("").sort().join("");
+         let array2 = word2.toLowerCase().split("").sort().join(""); 
+         if(array1 === array2) {
+            return true
+         }else {
+            return false;
+         }
     }else {
         return"Debe introducir dos textos";    
     }     

@@ -1,9 +1,9 @@
 // 9 - Escribir un algoritmo que determine si un año es bisiesto.
 
 
-let anno = "2025";
+let anno = 2025;
 
-if(anno) {
+if(Number.isInteger(anno)) {
     if ((anno % 4 === 0 && anno % 100 !== 0) || anno % 400 === 0) {
     console.log(`El año ${anno} es bisiesto`);
  } else {

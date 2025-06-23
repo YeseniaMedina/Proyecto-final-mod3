@@ -21,4 +21,6 @@ function parentBalanceados(texto) {
   }
 }
 
-console.log(parentBalanceados("ho(() caraco()"));
+console.log(parentBalanceados("ho() car(aco()"));
+
+

@@ -1,5 +1,5 @@
 
-// Crear un programa que convierta grados Celsius a Fahrenheit y viceversa.
+// 10 -Crear un programa que convierta grados Celsius a Fahrenheit y viceversa.
 
 function conversion(valor, tipo) {
  if(tipo === "C") {
